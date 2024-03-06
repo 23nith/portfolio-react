@@ -7,10 +7,10 @@
             "url": "https://blog-mern-client-x7x0.onrender.com/"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/portfolio/1/Ecomm_RoR.png",
+            "title": "E-Commerce RoR",
+            "description": "Ruby on Rails 7, Hotwire, Stimulus, Tailwind, AWS S3, Stripe",
+            "url": "https://rails-production-f9d5.up.railway.app/"
         }
     ]
 }
