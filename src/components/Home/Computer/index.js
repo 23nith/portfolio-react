@@ -2,8 +2,9 @@ import './index.scss'
 import {Suspense, useEffect, useState} from 'react';
 import {Canvas} from '@react-three/fiber';
 import {OrbitControls, Preload, useGLTF, Stage} from '@react-three/drei';
+import CanvasLoader from './Loader';
 
-// import CanvasLoader from '../Loader';
+
 
 const Computers = () => {    
     const computer = useGLTF('./desktop_pc/scene.gltf')
@@ -26,7 +27,7 @@ const ComputersCanvas = () => {
             {/* <Stage environment={null}>
                 <Computers scale={0.01} />
             </Stage> */}
-            <Suspense >
+            <Suspense fallback={<CanvasLoader/>}>
                 <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} minPolarAngle={Math.PI / 2} />
                 <Computers/>
             </Suspense>
