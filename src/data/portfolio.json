@@ -3,7 +3,7 @@
         {
             "cover": "/portfolio/1/MERN_blog.png",
             "title": "MERN blog",
-            "description": "React, JSX, Express.js, Node.js, MongoDB, Mongoose, PostgreSQL",
+            "description": "React, JSX, Express.js, Node.js, MongoDB, Mongoose",
             "url": "https://blog-mern-client-x7x0.onrender.com/"
         },
         {
