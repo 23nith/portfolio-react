@@ -31,6 +31,19 @@ const Sidebar = () => {
                     <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
                 </NavLink>
                 <FontAwesomeIcon onClick={()=>{setShowNav(false)}} icon={faClose} color="#ffd700" size="3x" className='close-icon' />
+
+                <ul class="show-mobile" >
+                    <li>
+                        <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/maria-zenith-manuel/' style={{fontSize: "40px"}}>
+                            <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" rel='noreferrer' href='https://github.com/23nith' style={{fontSize: "40px"}}>
+                            <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                        </a>
+                    </li>
+                </ul>
             </nav>
             <ul>
                 <li>
