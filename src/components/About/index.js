@@ -34,7 +34,7 @@ const About = () => {
                     </p>
                     <p>
                         If I need to define myself in one sentence that would be a gamer, creative, a sports fanatic,
-                        cofee lover, and tech-obsessed!!!
+                        coffee lover, and tech-obsessed!!!
                     </p>
                 </div>
 
