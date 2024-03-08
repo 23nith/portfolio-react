@@ -1,5 +1,7 @@
 import { faAngular, faCss3, faGitAlt, faHtml5, faReact } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { SiRubyonrails } from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io5";
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
@@ -39,31 +41,32 @@ const About = () => {
                 <div className='stage-cube-cont'>
                     <div className='cubespinner'>
                         <div className='face1'>
-                            <FontAwesomeIcon icon={faAngular} color="#DD0031"/>
-                        </div>
-                    </div>
-                    <div className='cubespinner'>
-                        <div className='face1'>
-                            <FontAwesomeIcon icon={faHtml5} color="#f06529"/>
+                            {/* <FontAwesomeIcon icon={faAngular} color="#DD0031"/> */}
+                            <IoLogoJavascript color="F0DB4F"/>
                         </div>
                     </div>
                     <div className='cubespinner'>
                         <div className='face2'>
-                            <FontAwesomeIcon icon={faCss3} color="#28a4d9"/>
+                            <FontAwesomeIcon icon={faHtml5} color="#f06529"/>
                         </div>
                     </div>
                     <div className='cubespinner'>
                         <div className='face3'>
-                            <FontAwesomeIcon icon={faReact} color="#5ed4f4"/>
+                            <FontAwesomeIcon icon={faCss3} color="#28a4d9"/>
                         </div>
                     </div>
                     <div className='cubespinner'>
                         <div className='face4'>
-                            <FontAwesomeIcon icon={faAngular} color="#efd81d"/>
+                            <FontAwesomeIcon icon={faReact} color="#5ed4f4"/>
                         </div>
                     </div>
                     <div className='cubespinner'>
                         <div className='face5'>
+                            <SiRubyonrails color="#ec4d28"/>
+                        </div>
+                    </div>
+                    <div className='cubespinner'>
+                        <div className='face6'>
                             <FontAwesomeIcon icon={faGitAlt} color="#ec4d28"/>
                         </div>
                     </div>
