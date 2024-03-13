@@ -9,8 +9,14 @@
         {
             "cover": "/portfolio/1/Ecomm_RoR.png",
             "title": "E-Commerce RoR w/ admin panel",
-            "description": "Ruby on Rails 7, Hotwire, Stimulus, Tailwind, AWS S3, PostgreSQL",
+            "description": "Ruby on Rails 7, Hotwire, Stimulus, Tailwind, AWS S3, PostgreSQL, Stripe",
             "url": "https://ror-ecomm.fly.dev/"
+        },
+        {
+            "cover": "/portfolio/1/book-list.png",
+            "title": "Book List",
+            "description": "Ruby on Rails API, Next.js, TypeScript, Tailwind, PostgreSQL",
+            "url": "https://booklist-fe.onrender.com/"
         }
     ]
 }
